@@ -7,8 +7,9 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("viewDidLoad() called")
+        print("viewDidLoad() called only once")
         view.backgroundColor = UIColor.randomColor()
+        print ()
     }
 
     override func viewWillAppear(animated: Bool) {
